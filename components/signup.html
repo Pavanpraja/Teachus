@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachus website 2023</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div class="Signupcon">
+        <div class="undcon">
+            <div class="confsb">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="signup()">Signup</button>
+            </div>
+            <div class="paragraph">
+                <p id="cp">Login into your account</p>
+            </div>
+            <div class="formscon">
+                <form class="login-form" id="login">
+                    <div class="lfc">
+                        <input type="text" name="name" placeholder="Username" required>
+                        <input type="password" name="password" placeholder="password" required>
+                        <button type="submit">Login</button>
+                    </div>
+                </form>
+                <form class="signup-form" id="signup">
+                    <div class="sfc">
+                        <input type="text" name="name" placeholder="Username" required>
+                        <input type="email" name="email" placeholder="email" required>
+                        <input type="password" name="password" placeholder="password" required>
+                        <button type="submit">Signup</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+
+</html>
