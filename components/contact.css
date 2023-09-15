@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kanit:ital,wght@0,200;0,300;0,400;0,500;1,500&family=Lobster&family=Pacifico&family=Poppins:wght@500&family=Roboto:wght@300&family=Ubuntu:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+}
+#contact{
+    height: 79rem;
+    background: linear-gradient(45deg, #52fbd6, #4ca1c9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactcon{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background: #00000052;
+    width: 64rem;
+    height: 57rem;
+    gap: 4rem;
+    align-items: center;
+    padding: 3rem;
+    border-radius: 2rem;
+    box-shadow: 0rem 0rem 0.5rem 0rem black;
+}
+.cform form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.cform form input{
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 32rem;
+    border: 0;
+    border-bottom: 0.3rem solid black;
+    background: none;
+    color: white;
+    outline: none;
+}
+.cform form input::-webkit-input-placeholder{
+    color: white;
+}
+.cform form textarea{
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 32rem;
+    border: 0;
+    border-bottom: 0.3rem solid black;
+    background: none;
+    color: white;
+    outline: none;
+    height: 13rem;
+}
+.cform form textarea::-webkit-input-placeholder{
+    color: white;
+}
+.cform form button{
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 32rem;
+    border: 0;
+    outline: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: 0;
+    box-shadow: 0rem 0rem 0.2rem 0rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+.cform form button:hover{
+    box-shadow: inset 0rem 0rem 0.2rem 0rem;
+    background: rgba(0, 0, 0, 0.425);
+}
+
+.fhp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 47rem;
+}
+.fhp h1{
+    font-size: 3.5rem;
+    text-shadow: 0rem 0rem 0.7rem black;
+}
+.fhp p{
+    font-size: 1.8rem;
+    text-shadow: 0rem 0rem 0.7rem black;
+    text-align: center;
+}
+
