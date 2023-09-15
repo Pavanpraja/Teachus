@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kanit:ital,wght@0,200;0,300;0,400;0,500;1,500&family=Lobster&family=Pacifico&family=Poppins:wght@500&family=Roboto:wght@300&family=Ubuntu:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.foocon{
+    height: 36rem;
+    background: linear-gradient(45deg, #ab00ff, #ff6666);
+}
+.fooinncon{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.foofirstcon{
+    width: 47rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+.foofirstcon img{
+    width: 12rem;
+}
+.fooseccon{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+.foothicon{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+.foofirstcon p{
+    font-size: 1.8rem;
+    text-shadow: 0rem 0rem 1rem black;
+    font-weight: 600;
+}
+.fooseccon h1{
+    font-size: 1.8rem;
+    text-shadow: 0rem 0rem 1rem black;
+    font-weight: 600;
+}
+.fooseccon p {
+    font-size: 1.5rem;
+}
+.fooseccon p a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0rem 0.2rem 0.3rem black;
+    transition: 1s;
+}
+.fooseccon p a:hover{
+    border-bottom: 0.2rem solid white;
+}
+.foothicon h1{
+    font-size: 1.8rem;
+    text-shadow: 0rem 0rem 1rem black;
+    font-weight: 600;
+}
+.foothicon p{
+    font-size: 1.5rem;
+}
+.foothicon p a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0rem 0.2rem 0.3rem black;
+}
+.foothicon p a:hover{
+    border-bottom: 0.2rem solid white;
+}
